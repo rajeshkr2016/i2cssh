@@ -1,7 +1,8 @@
 require 'rb-scpt'
 class I2Cssh
     def initialize servers, ssh_options, i2_options, ssh_environment
-        @ssh_prefix         = "ssh " + ssh_options.join(' ')
+        #@ssh_prefix         = "ssh " + ssh_options.join(' ')
+        @ssh_prefix         = 'SSHPASSWORD=$(security 2>&1 >/dev/null find-generic-password -ga SystemUnixLogin|awk -F: \'{gsub(/\"| /,"",$2); print $2}\');sshpass -p"$SSHPASSWORD" ssh ' + ssh_options.join(' ')
         @ssh_options        = ssh_options
         @i2_options         = i2_options.clone
         @servers            = servers
