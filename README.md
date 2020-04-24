@@ -6,7 +6,7 @@ to all sessions.
 
 ## Installing
 
-Pre-requistes:
+Pre-requisites:
 - Install Ruby Gem: https://www.ruby-lang.org/en/documentation/installation/
 
 When using iTerm2 < 2.9, install i2cssh version 1.16.0:
