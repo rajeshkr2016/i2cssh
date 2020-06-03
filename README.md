@@ -8,7 +8,8 @@ to all sessions.
 
 Pre-requisites:
 - Install Ruby Gem: https://www.ruby-lang.org/en/documentation/installation/
-- Keychain access in Mac
+- Keychain access in Mac with SystemUnixLogin as the keychain name for password being stored.  
+
 When using iTerm2 < 2.9, install i2cssh version 1.16.0:
 
     $ gem install i2cssh -v 1.16.0
