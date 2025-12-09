@@ -66,6 +66,7 @@ GEM
     rack (3.0.4.1)
     rake (13.0.1)
     rdoc (6.3.2)
+    rchardet (1.8.0)
       json (~> 1.4)
     ruby2_keywords (0.0.5)
     shoulda (2.11.3)
