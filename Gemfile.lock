@@ -47,6 +47,7 @@ GEM
       nokogiri (>= 1.5.10)
       rake
       rdoc
+    jwt (2.2.1)
     json (1.8.1)
     jwt (2.6.0)
     mini_portile2 (2.4.0)
@@ -64,8 +65,8 @@ GEM
     public_suffix (5.0.1)
     rack (3.0.4.1)
     rake (13.0.1)
+    rdoc (6.3.2)
     rchardet (1.8.0)
-    rdoc (4.1.1)
       json (~> 1.4)
     ruby2_keywords (0.0.5)
     shoulda (2.11.3)
