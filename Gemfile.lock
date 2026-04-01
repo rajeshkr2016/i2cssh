@@ -48,12 +48,13 @@ GEM
       rake
       rdoc
     jwt (2.6.0)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.8.9)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.2.3)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.19.1)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     oauth2 (1.4.11)
       faraday (>= 0.17.3, < 3.0)
       jwt (>= 1.0, < 3.0)
